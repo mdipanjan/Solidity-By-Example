@@ -8,6 +8,8 @@ pragma solidity ^0.8.20;
     Structs can be declared outside of a contract and imported in another contract.
 
  */
+// Caen also be imported from different file
+import "./StructDeclaration.sol";
 
 contract Todo {
     struct TodoItem {
